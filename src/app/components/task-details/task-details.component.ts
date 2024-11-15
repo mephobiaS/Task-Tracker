@@ -25,6 +25,7 @@ export class TaskDetailsComponent implements OnInit {
     if (id) {
       const taskId = +id;
       this.task = this.taskService.getTask(taskId);
+      console.log(this.task);
     }
   }
 }

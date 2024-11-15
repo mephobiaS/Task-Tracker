@@ -9,7 +9,7 @@ export class TaskService {
     this.loadTasksFromLocalStorage();
   }
 
-  private tasks: Task[] = [
+  tasks: Task[] = [
     {
       id: 1,
       title: 'Task 1',
@@ -107,7 +107,7 @@ export class TaskService {
   }
 
   getTask(id: number): Task | undefined {
-    return this.tasks.find((t) => t.id === id);
+    return this.tasks.find((task) => task.id === id);
   }
 
   updateTask(updatedTask: Task): void {
