@@ -1,0 +1,6 @@
+.detail-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 10px;
+}
